@@ -28,6 +28,7 @@ public class Library {
         BrowserUtils.wait(2);
         driver.findElement(By.xpath("//button[@class='btn btn-lg btn-primary btn-block']")).click();
         BrowserUtils.wait(2);
+        
 
     }
     @AfterMethod

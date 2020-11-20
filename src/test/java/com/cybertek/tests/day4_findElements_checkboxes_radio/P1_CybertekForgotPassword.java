@@ -38,10 +38,10 @@ public class P1_CybertekForgotPassword {
 
         //e. “Retrieve password” button
         //Using css selector to locate this button
-        //Option 31: using this syntax --> button#form_submit
-        //        //Option #2: using this syntax --> button[id='form_submit']
-        //        //Option #3: using this syntax --> button[class='radius']
-        //        //Option #4: button.radius
+               //Option #1: using this syntax --> button#form_submit
+                //Option #2: using this syntax --> button[id='form_submit']
+                //Option #3: using this syntax --> button[class='radius']
+                //Option #4: button.radius
 
          WebElement retrivePasswordButton = driver.findElement(By.cssSelector("button.radius"));
 
